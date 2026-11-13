@@ -1,0 +1,17 @@
+# Editor / OS
+*~
+.DS_Store
+
+# Local backup copies (do not track)
+* copy*
+*copy.*
+*_backup*
+代码备份.txt
+SConscript copy.*
+
+# Build artifacts (if compiling app locally)
+*.o
+*.a
+
+# Gem5 run outputs (if someone runs from this tree)
+m5out/
